@@ -1,4 +1,4 @@
-# Noggin Login - HardHacks2019
+# NOGGIN LOGIN - HardHacks2019
 Noggin Login is a program and hardware hack that counts the heads, or __noggins__, of people in a selected area.
 
 ![website](media/noggin-login.png)
