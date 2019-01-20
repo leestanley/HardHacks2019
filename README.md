@@ -19,7 +19,7 @@ The hack isn't just limited to the classroom; Noggin Login could be used in any 
 Two different implementations are available for noggin-counting!
 
 ## Implementation A - Above the Lecture Hall
-- The device can be installed on the ceiling in the middle of a room to continuously count from above the amount of heads in the selected area. As shown below, a colored frame appears around each detected person.
+- The device can be installed on the ceiling in the middle of a room to continuously count from above the amount of heads in the selected area. As shown below, a colored frame appears around each detected person. The program then sums up the amount of detected people.
 
 ![Implementation A](media/ImplementationA.jpg)
 Implementation A Demo - Two humans are detected.
@@ -28,7 +28,7 @@ Implementation A Demo - Two humans are detected.
 - The device can be installed just above the front door of a room to count how many people walk in and out. The line dividing the screen represents the programmed boundary of the room. Depending on which side the line was crossed from by a person, the integer representing the number of people in the room will increment/decrement.
 
 ![Implementation B](media/ImplementationB2.jpg)
-Implementation B Demo Pic 1 - The "Down" counter is 34.
+Implementation B Demo Pic 1 - The "Down" counter (in red, at the bottom left corner of the camera window) is 34.
 
 ![Implementation B1](media/ImplementationB1.jpg)
 Implementation B Demo Pic 2 - After a person crossed the boundary, the "Down" counter is 35.
