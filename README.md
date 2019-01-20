@@ -36,6 +36,6 @@ Interaction
   -- https://codepen.io/neoberg/pen/kavnF
 - OpenCV
   
--Arduino
+- Arduino
   -- https://www.arduino.cc/reference/en/language/functions/communication/serial/
   
