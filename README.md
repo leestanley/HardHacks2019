@@ -33,6 +33,9 @@ Implementation B Demo Pic 1 - The "Down" counter is 34.
 ![Implementation B1](media/ImplementationB1.jpg)
 Implementation B Demo Pic 2 - After a person crossed the boundary, the "Down" counter is 35.
 
+![Implementation B1](media/ImplementationB3.jpg)
+Implementation B Demo Pic 3 - How the "door" boundary was emulated.
+
 # Installation
 - Clone the repository
 - Install pip, OpenCV, imutils, and pySerial
