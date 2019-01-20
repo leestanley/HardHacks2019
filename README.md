@@ -29,4 +29,8 @@ Interaction
 - Printing out the number of people onto the LCD
 
 # Credits
-- 
+- CodePen.io
+  -- https://codepen.io/harmputman/pen/ImjDs
+  -- https://codepen.io/neoberg/pen/kavnF
+- OpenCV
+  
