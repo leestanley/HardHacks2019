@@ -40,10 +40,8 @@ time.sleep(2.0)
 fps = FPS().start()
 
 # initialize persons integer
-currInScreen = []
-currInScreen_temp = []
-labels = []
-labels_temp = []
+persons = 0
+temp_persons = 0
 
 # loop over the frames from the video stream
 while True:
@@ -66,29 +64,31 @@ while True:
     # loop over the detections
     for i in np.arange(0, detections.shape[2]):
 
-        currDetections = detections.shape[2]
+        #index of the detections, which is 15 for a person
         pind = int(detections[0 , 0, i, 1]) 
 
-        if ( i not in currInScreen and currDetections > len(currInScreen) ):
-            labels_temp = []
-            currInScreen_temp = []
-            currInScreen.append(i)
-            labels.append(pind)
-            if ( pind == 15 ):
-                print ("The number of people is (NO LEAVE) : " + str(labels.count(15)))
-        elif ( i in currInScreen and currDetections <= len(currInScreen) ):
-            labels_temp.append(pind)
-            currInScreen_temp.append(i)
-            if ( len(labels_temp) == currDetections and labels_temp.count(15) < labels.count(15) ):
-                print(" The number of people is (LEAVE) :" + str(labels_temp.count(15)))
-                labels = []
-                currInScreen = []
+        #if the index is not 15, subtract
+        if (pind != 15):
+            persons = persons -1
 
-        #set state variable, once it prints for a specific i, don't print for it again
-        #subtract when you leave
-        #make a list that is empty, add i once it prints once
-        #if its a person, remove the i value, decrement entire list
+            #guard for not negative
+            if (persons < 0):
+                persons = 0
 
+        #if the index is 15, add
+        elif (pind == 15):
+            persons +=1
+
+            #guard for not over the limit
+            if (persons > detections.shape[2]):
+                persons = detections.shape[2]
+        
+        #only prints when the person outputs a change
+        if (persons != temp_persons):
+            print(persons)
+        
+        temp_persons = persons
+        
         # extract the confidence (i.e., probability) associated with
         # the prediction
         confidence = detections[0, 0, i, 2]
@@ -115,8 +115,6 @@ while True:
             y = startY - 15 if startY - 15 > 15 else startY + 15
             cv2.putText(frame, label, (startX, y),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
-            #persons += 1;
-            #print(persons)
 
     # show the output frame
     cv2.imshow("Frame", frame)
