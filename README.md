@@ -17,6 +17,8 @@ Interaction
 - 
 
 # Features
+- Arduino with an LCD displaying the live count of people
+- Head counter
 - 
 
 # Challenges
