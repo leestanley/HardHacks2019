@@ -3,9 +3,9 @@ Noggin Login is a program and hardware hack that counts the heads, or __noggins_
 
 ![website](media/noggin-login.png)
 
-DevPost: https://devpost.com/software/hardhacks2019
+DEVPOST: https://youtu.be/m5ggC2xEji4
 
-Demo Video: https://youtu.be/m5ggC2xEji4
+DEMO: https://devpost.com/software/hardhacks2019
 
 # Motivation/Applications
 As first-time college students, we were shocked by the sheer size of lecture halls and class sizes. However, it quickly became apparent that class attendance varies on a day to day basis, with a noticeable decrease as a quarter comes to a close. We realized that collecting data of the amount of students in a lecture hall would be quite useful, including for:
@@ -21,8 +21,14 @@ Two different implementations are available for noggin-counting!
 ## Implementation A - Above the Door
 - The device can be installed just above the front door of a room to count how many people walk in and out.
 
+![Implementation A](media/Implementation A.jpg)
+
 ## Implementation B - Above the Lecture Hall
 - The device can be installed on the ceiling in the middle of a room to continuously count from above the amount of heads in the selected area.
+
+![Implementation B](media/Implementation B 1.jpg)
+
+![Implementation B](media/Implementation B 2.jpg)
 
 # Installation
 Installation
@@ -32,8 +38,20 @@ Installation
 
 # Features
 - Head counter that adds up the total amount of people in a room
-- Arduino with an LCD displaying the live count of people
 - Website that displays the live count of people
+- Arduino with an LCD displaying the live count of people
+
+![Setup](media/Setup.jpg)
+
+![Welcome Sign](media/Welcome Sign.jpg)
+
+![Arduino](media/Arduino.jpg)
+
+![Initiating](media/Initiating.jpg)
+
+![Total Head Count](media/Total Head Count.jpg)
+
+![Potentiometer](media/Potentiometer_10K.jpg)
 
 # Challenges
 - Connecting the Python data of head counts to display on the LCD attached to the Arduino
