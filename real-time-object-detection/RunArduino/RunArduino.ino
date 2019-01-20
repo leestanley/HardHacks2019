@@ -19,8 +19,10 @@ void setup() {
   lcd.print("# of people:");
   lcd.setCursor(0,1);
   pinMode(10, OUTPUT);
+  lcd.print(5);
 }
- 
+
+
 void loop() {
     if (Serial.available() > 0) {
       lcd.home();
