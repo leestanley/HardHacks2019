@@ -3,9 +3,9 @@ Noggin Login is a program and hardware hack that counts the heads, or __noggins_
 
 ![website](media/noggin-login.png)
 
-DEVPOST: https://youtu.be/m5ggC2xEji4
+DEMO: https://youtu.be/m5ggC2xEji4
 
-DEMO: https://devpost.com/software/hardhacks2019
+DEVPOST: https://devpost.com/software/hardhacks2019
 
 # Motivation/Applications
 As first-time college students, we were shocked by the sheer size of lecture halls and class sizes. However, it quickly became apparent that class attendance varies on a day to day basis, with a noticeable decrease as a quarter comes to a close. We realized that collecting data of the amount of students in a lecture hall would be quite useful, including for:
