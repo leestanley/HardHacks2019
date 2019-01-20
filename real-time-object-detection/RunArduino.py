@@ -1,5 +1,19 @@
+import serial
+import time
+
+# whether or not arduino is connected
+connected = False
+
+s = serial.Serial('COM3', 9600) #port is 11 (for COM12), and baud rate is 9600
+time.sleep(3)    #wait for the Serial to initialize
+    
+s.write(b'--')
+
+
+
+# Object Detection 
 # USAGE
-# python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+# python RunArduino.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
 
 # import the necessary packages
 from imutils.video import VideoStream
@@ -39,6 +53,10 @@ vs = VideoStream(src=0).start()
 time.sleep(2.0)
 fps = FPS().start()
 
+# initialize persons integer
+persons = 0
+temp_persons = 0
+
 # loop over the frames from the video stream
 while True:
     # grab the frame from the threaded video stream and resize it
@@ -55,9 +73,38 @@ while True:
     # predictions
     net.setInput(blob)
     detections = net.forward()
-
+    #print(detections.shape[2])
+    
     # loop over the detections
     for i in np.arange(0, detections.shape[2]):
+
+        #index of the detections, which is 15 for a person
+        pind = int(detections[0 , 0, i, 1]) 
+
+        #if the index is not 15, subtract
+        if (pind != 15):
+            persons = persons -1
+
+            #guard for not negative
+            if (persons < 0):
+                persons = 0
+
+        #if the index is 15, add
+        elif (pind == 15):
+            persons +=1
+
+            #guard for not over the limit
+            if (persons > detections.shape[2]):
+                persons = detections.shape[2]
+        
+
+        #only prints when the person outputs a change
+        if (persons != temp_persons):
+            s.write(str(persons).encode())
+            print(persons)
+        
+        temp_persons = persons
+        
         # extract the confidence (i.e., probability) associated with
         # the prediction
         confidence = detections[0, 0, i, 2]
@@ -72,14 +119,18 @@ while True:
             box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
             (startX, startY, endX, endY) = box.astype("int")
 
+            #print ('{}, {}'.format(i, idx))
+            
             # draw the prediction on the frame
             label = "{}: {:.2f}%".format(CLASSES[idx],
                                          confidence * 100)
+
+            # if "person" in label:
             cv2.rectangle(frame, (startX, startY), (endX, endY),
-                          COLORS[idx], 2)
+                      COLORS[idx], 2)
             y = startY - 15 if startY - 15 > 15 else startY + 15
             cv2.putText(frame, label, (startX, y),
-                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 
     # show the output frame
     cv2.imshow("Frame", frame)
@@ -100,3 +151,6 @@ print("[INFO] approx. FPS: {:.2f}".format(fps.fps()))
 # do a bit of cleanup
 cv2.destroyAllWindows()
 vs.stop()
+
+
+

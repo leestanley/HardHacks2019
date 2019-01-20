@@ -9,6 +9,7 @@ import argparse
 import imutils
 import time
 import cv2
+import serial
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
