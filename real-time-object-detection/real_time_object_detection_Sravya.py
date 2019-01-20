@@ -40,6 +40,11 @@ time.sleep(2.0)
 fps = FPS().start()
 
 # initialize persons integer
+persons = 0
+objects = 0
+printFirst = True
+temp_persons = 0
+temp_size = 0
 currInScreen = []
 currInScreen_temp = []
 labels = []
@@ -66,23 +71,69 @@ while True:
     # loop over the detections
     for i in np.arange(0, detections.shape[2]):
 
-        currDetections = detections.shape[2]
         pind = int(detections[0 , 0, i, 1]) 
 
+        if (pind != 15):
+            persons = persons -1
+            if (persons < 0):
+                persons = 0
+        elif (pind == 15):
+            persons +=1
+            if (persons > detections.shape[2]):
+                persons = detections.shape[2]
+        
+        if (persons != temp_persons):
+            print(persons)
+        
+        temp_persons = persons
+        
+        #print(persons)
+        '''
+
+        if (objects >= persons and objects == 0):
+            persons = 0
+            while (p == True):
+                print( "The number of people (0) is:" + str(persons) )
+                p = False
+        if (detections.shape[2] == 1 and objects == 0):
+            p = True
+            objects = int(detections.shape[2])
+            if (pind == 15):
+                persons = persons + 1
+                print( "The number of people (1) is: " + str(persons))
+        elif (detections.shape[2] > objects):
+            p = True
+            objects = int(detections.shape[2])
+            if (pind == 15):
+                persons = persons + 1
+                print( "The number of people (1) is: " + str(persons))
+        elif (detections.shape[2] < objects):
+            p = True
+            objects = int(detections.shape[2])
+            if (persons > objects):
+                persons = persons - 1
+                if (objects == 0):
+                    persons = 0
+                if (persons < 0):
+                    persons = 0
+                print( "The number of people (2) is: " + str(persons))
+       '''
+        '''
         if ( i not in currInScreen and currDetections > len(currInScreen) ):
             labels_temp = []
             currInScreen_temp = []
             currInScreen.append(i)
             labels.append(pind)
             if ( pind == 15 ):
-                print ("The number of people is (NO LEAVE) : " + str(labels.count(15)))
+                print (The number of people is (NO LEAVE) :  + str(labels.count(15)))
         elif ( i in currInScreen and currDetections <= len(currInScreen) ):
             labels_temp.append(pind)
             currInScreen_temp.append(i)
             if ( len(labels_temp) == currDetections and labels_temp.count(15) < labels.count(15) ):
-                print(" The number of people is (LEAVE) :" + str(labels_temp.count(15)))
+                print( The number of people is (LEAVE) : + str(labels_temp.count(15)))
                 labels = []
                 currInScreen = []
+        '''
 
         #set state variable, once it prints for a specific i, don't print for it again
         #subtract when you leave
@@ -115,8 +166,6 @@ while True:
             y = startY - 15 if startY - 15 > 15 else startY + 15
             cv2.putText(frame, label, (startX, y),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
-            #persons += 1;
-            #print(persons)
 
     # show the output frame
     cv2.imshow("Frame", frame)
