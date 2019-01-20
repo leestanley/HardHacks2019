@@ -46,6 +46,7 @@ twoSecondCounter = 0
 twoSecondArray = [None]*30
 oneMinuteCounter = 0
 oneMinuteArray = ["n/a", "n/a", "n/a"]
+count = 1
 
 # loop over the frames from the video stream
 while oneMinuteCounter < 3:
@@ -53,6 +54,12 @@ while oneMinuteCounter < 3:
     # to have a maximum width of 400 pixels
     frame = vs.read()
     frame = imutils.resize(frame, width=400)
+
+    # saves frame as a .jpg (r prefixes the string to be raw)
+    name = "frame%d.jpg"%count
+    path = r'C:\Users\titan\Documents\GitHub\HardHacks2019\Jpgs'
+    cv2.imwrite(name, frame)    
+    count += 1
 
     # grab the frame dimensions and convert it to a blob
     (h, w) = frame.shape[:2]
