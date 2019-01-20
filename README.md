@@ -26,8 +26,6 @@ Two different implementations are available for noggin-counting!
 ## Implementation B - Above the Lecture Hall
 - The device can be installed on the ceiling in the middle of a room to continuously count from above the amount of heads in the selected area.
 
-![Implementation B](media/ImplementationB1.jpg)
-
 ![Implementation B](media/ImplementationB2.jpg)
 
 # Installation
