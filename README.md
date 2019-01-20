@@ -1,11 +1,24 @@
 # Noggin Login - HardHacks2019
-
-Rooms with over a large amount of people are a big problem when it comes to safety hazards. How can we find an efficent way of counting the number of people in a room in order to ensure safety? By creating an automated counting system, Noggin Login is a more precise and effective way of doing *exactly* this!
+Noggin Login is a program and hardware hack that counts the heads, or noggins, of people in a selected area.
 
 ![website](media/noggin-login.png)
 
-# Motivation
-As first-time college students, we were shocked by the size of the lecture halls. We quickly saw how much effort it took to take attendence in class. There are also instances of students sitting on the steps of classes with waitlists, which. We all complain about the cost of iClickers, and installing this head count camera would reduce the money needed in your college fund. Without needing to thinking about this extra investment, we could all focus on our education and get the best out of our experience in college.
+# Motivation/Applications
+As first-time college students, we were shocked by the sheer size of lecture halls and class sizes. However, it quickly became apparent that class attendance varies on a day to day basis, with a noticeable decrease as a quarter comes to a close. We realized that collecting data of the amount of students in a lecture hall would be quite useful, including for:
+- Studying possible correlations of class attendance with average grades/passing rates
+- Studying trends of class attendance and how they correlate with certain events/the nth week of a quarter
+- Monitoring class attendance against the amount of seats for adjusting waitlists
+
+The hack isn't just limited to the classroom; Noggin Login could be used in any public area that could use some head-counting to determine how many people visit the space over time!
+
+# Different Versions
+Two different implementations are available for noggin-counting!
+
+## Implementation A - Above the Door
+- The device can be installed just above the front door of a room to count how many people walk in and out.
+
+## Implementation B - Above the Lecture Hall
+- The device can be installed on the ceiling in the middle of a room to continuously count from above the amount of heads in the selected area.
 
 # Installation
 Installation
