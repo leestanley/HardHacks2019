@@ -1,12 +1,12 @@
 # Noggin Login - HardHacks2019
-Noggin Login is a program and hardware hack that counts the heads, or noggins, of people in a selected area.
+Noggin Login is a program and hardware hack that counts the heads, or __noggins__, of people in a selected area.
 
 ![website](media/noggin-login.png)
 
 # Motivation/Applications
 As first-time college students, we were shocked by the sheer size of lecture halls and class sizes. However, it quickly became apparent that class attendance varies on a day to day basis, with a noticeable decrease as a quarter comes to a close. We realized that collecting data of the amount of students in a lecture hall would be quite useful, including for:
 - Studying possible correlations of class attendance with average grades/passing rates
-- Studying trends of class attendance and how they correlate with certain events/the nth week of a quarter
+- Studying trends of class attendance and how they correlate with certain events/the _nth_ week of a quarter
 - Monitoring class attendance against the amount of seats for adjusting waitlists
 
 The hack isn't just limited to the classroom; Noggin Login could be used in any public area that could use some head-counting to determine how many people visit the space over time!
