@@ -34,10 +34,11 @@ Implementation B Demo Pic 1 - The "Down" counter is 34.
 Implementation B Demo Pic 2 - After a person crossed the boundary, the "Down" counter is 35.
 
 # Installation
-Installation
-- Download the repository
+- Clone the repository
 - Install pip, OpenCV, imutils, and pySerial
-- Download the Arduino IDE
+- Download the Arduino IDE and connect Arduino as displayed by given imagers
+- python real_time_object_detection_Sravya.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel (Run in terminal, python or python3 depending on your system)
+
 
 # Features
 - Head counter that adds up the total amount of people in a room
