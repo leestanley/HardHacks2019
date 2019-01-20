@@ -22,11 +22,13 @@ Two different implementations are available for noggin-counting!
 - The device can be installed just above the front door of a room to count how many people walk in and out.
 
 ![Implementation A](media/ImplementationA.jpg)
+Implementation A Demo
 
 ## Implementation B - Above the Lecture Hall
 - The device can be installed on the ceiling in the middle of a room to continuously count from above the amount of heads in the selected area.
 
 ![Implementation B](media/ImplementationB2.jpg)
+Implementation B Demo
 
 # Installation
 Installation
@@ -40,16 +42,22 @@ Installation
 - Arduino with an LCD displaying the live count of people
 
 ![Setup](media/Setup.jpg)
-
-![Welcome Sign](media/WelcomeSign.jpg)
+Setup of Arduino
 
 ![Arduino](media/Arduino.jpg)
+Arduino Closeup
+
+![Welcome Sign](media/WelcomeSign.jpg)
+Welcome Sign at start of running program
 
 ![Initiating](media/Initiating.jpg)
+Initiating message before displaying count
 
 ![Total Head Count](media/TotalHeadCount.jpg)
+Final total head count (Our team members here!)
 
 ![Potentiometer](media/Potentiometer10K.jpg)
+Potentiometer used as a giant 3-way resistor
 
 # Challenges
 - Connecting the Python data of head counts to display on the LCD attached to the Arduino
