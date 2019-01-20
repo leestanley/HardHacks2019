@@ -3,7 +3,7 @@ Noggin Login is a program and hardware hack that counts the heads, or __noggins_
 
 ![website](media/noggin-login.png)
 
-DevPost: https://github.com/C-Aniruddh/realtime_object_recognition
+DevPost: https://devpost.com/software/hardhacks2019
 
 Demo Video: https://youtu.be/m5ggC2xEji4
 
