@@ -26,9 +26,9 @@ Two different implementations are available for noggin-counting!
 ## Implementation B - Above the Lecture Hall
 - The device can be installed on the ceiling in the middle of a room to continuously count from above the amount of heads in the selected area.
 
-![Implementation B](media/Implementation B 1.jpg)
+![Implementation B](media/Implementation-B-1.jpg)
 
-![Implementation B](media/Implementation B 2.jpg)
+![Implementation B](media/Implementation-B-2.jpg)
 
 # Installation
 Installation
@@ -43,13 +43,13 @@ Installation
 
 ![Setup](media/Setup.jpg)
 
-![Welcome Sign](media/Welcome Sign.jpg)
+![Welcome Sign](media/Welcome-Sign.jpg)
 
 ![Arduino](media/Arduino.jpg)
 
 ![Initiating](media/Initiating.jpg)
 
-![Total Head Count](media/Total Head Count.jpg)
+![Total Head Count](media/Total-Head-Count.jpg)
 
 ![Potentiometer](media/Potentiometer_10K.jpg)
 
