@@ -25,7 +25,7 @@ Two different implementations are available for noggin-counting!
 Implementation A Demo
 
 ## Implementation B - Above the Door
-- The device can be installed just above the front door of a room to count how many people walk in and out.
+- The device can be installed just above the front door of a room to count how many people walk in and out. The line dividing the screen represents the programmed boundary of the room.
 
 ![Implementation B](media/ImplementationB2.jpg)
 Implementation B Demo
@@ -54,7 +54,7 @@ Welcome Sign at start of running program
 Initiating message before displaying count
 
 ![Total Head Count](media/TotalHeadCount.jpg)
-Final total head count (Our team members here!)
+Final total head count: 5 (Our team members here!)
 
 ![Potentiometer](media/Potentiometer10K.jpg)
 Potentiometer used as a giant 3-way resistor
