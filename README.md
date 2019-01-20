@@ -36,7 +36,7 @@ Installation
 
 - OpenCV
   
-  -- 
+  -- https://github.com/C-Aniruddh/realtime_object_recognition
   
 - Arduino
   
