@@ -7,19 +7,15 @@ Rooms with over a large amount of people are a big problem when it comes to safe
 # Motivation
 As first-time college students, we were shocked by the size of the lecture halls. We quickly saw how much effort it took to take attendence in class. There are also instances of students sitting on the steps of classes with waitlists, which. We all complain about the cost of iClickers, and installing this head count camera would reduce the the money needed in your college fund. Without needing to thinking about this extra investment, we could all focus on our education and get the best out of our experience in college.
 
-# Installation + Interaction
+# Installation
 Installation
 - Download the repository
 - Install pip, OpenCV, imutils, and pySerial
 - Download the Arduino IDE
-Interaction
-- Open RunArduino.py and upload RunArduino.io from the Arduino IDE
-- 
 
 # Features
 - Arduino with an LCD displaying the live count of people
 - Head counter
-- 
 
 # Challenges
 - Connecting the Python data of head counts to display on the LCD attached to the Arduino
