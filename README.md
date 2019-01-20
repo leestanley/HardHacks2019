@@ -74,7 +74,7 @@ Potentiometer used as a giant 3-way resistor
 # Extensions
 - Printing out the number of people onto the LCD
 - Website that would potentially broadcast a live count of the people in a room
-- __Text to speech__ was also successfully programmed using Google Cloud; however, there was not enough time to implement functionality with the actual head-counting.
+- __Text to speech__ was also successfully programmed using Google Cloud; however, there was not enough time to implement functionality with the actual head-counting
 
 # Credits
 - CodePen.io
