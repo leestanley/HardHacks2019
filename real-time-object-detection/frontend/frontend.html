@@ -6,7 +6,7 @@
 <div class="loading"></div>
 
 <div class="verticalhorizontal">
-    <img src="nogginlogin.png" width="1350px" height="300px" alt="centered image" />
+    <img id="name" src="nogginlogin.png" width="1350px" height="300px" alt="centered image" style="display: none;"/>
 </div>
 
 <div class="solid"></div>
@@ -16,4 +16,15 @@
 <body>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="js/frontend.js"></script>
+	<script>
+	$("name").hide();
+	$(document).ready(function(){	
+		$('.loading').click(function(){
+  			$('.loading').fadeOut(3000);
+  			$('#name').fadeIn(6000);
+  			//$('.loading').removeClass();
+  		$()
+		});
+	});
+	</script>
 </body>
