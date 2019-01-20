@@ -21,13 +21,13 @@ Two different implementations are available for noggin-counting!
 ## Implementation A - Above the Door
 - The device can be installed just above the front door of a room to count how many people walk in and out.
 
-![Implementation A](media/ImplementationA.jpg)
+![Implementation B](media/ImplementationB2.jpg)
 Implementation A Demo
 
 ## Implementation B - Above the Lecture Hall
 - The device can be installed on the ceiling in the middle of a room to continuously count from above the amount of heads in the selected area.
 
-![Implementation B](media/ImplementationB2.jpg)
+![Implementation A](media/ImplementationA.jpg)
 Implementation B Demo
 
 # Installation
