@@ -22,16 +22,16 @@ Two different implementations are available for noggin-counting!
 - The device can be installed on the ceiling in the middle of a room to continuously count from above the amount of heads in the selected area. As shown below, a colored frame appears around each detected person.
 
 ![Implementation A](media/ImplementationA.jpg)
-Implementation A Demo
+Implementation A Demo - Two humans are detected.
 
 ## Implementation B - Above the Door
 - The device can be installed just above the front door of a room to count how many people walk in and out. The line dividing the screen represents the programmed boundary of the room. Depending on which side the line was crossed from by a person, the integer representing the number of people in the room will increment/decrement.
 
 ![Implementation B](media/ImplementationB2.jpg)
-Implementation B Demo Pic 1
+Implementation B Demo Pic 1 - The "In" counter is 34.
 
 ![Implementation B1](media/ImplementationB1.jpg)
-Implementation B Demo Pic 1
+Implementation B Demo Pic 2 - After a person crossed the boundary, the "In" counter is 35.
 
 # Installation
 Installation
