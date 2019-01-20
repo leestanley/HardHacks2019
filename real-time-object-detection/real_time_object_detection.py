@@ -75,15 +75,17 @@ while True:
             box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
             (startX, startY, endX, endY) = box.astype("int")
 
+
 	    #My Code
+	    if idx != 15:
+	    	persons -= 1
+	    if detections.shape[2] < 0:
+	    	persons == 0
+
 	    if idx == 15:
 	    	persons += 1
 	    if persons  > detections.shape[2]:
 	    	persons == detections.shape[2]
-	    if idx != 15:
-	    	persons -= 1
-	    if detections.shape[2]] < 0:
-	    	persons == 0
 
             # draw the prediction on the frame
             label = "{}: {:.2f}%".format(CLASSES[idx],
