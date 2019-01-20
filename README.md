@@ -14,17 +14,17 @@ Installation
 - Download the Arduino IDE
 
 # Features
+- Head counter that adds up the total amount of people in a room
 - Arduino with an LCD displaying the live count of people
-- Head counter
 
 # Challenges
 - Connecting the Python data of head counts to display on the LCD attached to the Arduino
 - Figuring out the correct algorithm to increment and decrement the amount of people that is detected
 - Understanding the functions of an Arduino
-- 
 
 # Extensions
 - Printing out the number of people onto the LCD
+- Website that would potentially braodcast a live count of the people in a room
 
 # Credits
 - CodePen.io
