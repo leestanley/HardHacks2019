@@ -1,0 +1,446 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"over",
+				"overflow-y\tproperty"
+			],
+			[
+				"input",
+				"inputname"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"bak",
+				"background-color\tproperty"
+			],
+			[
+				"cla",
+				"clarifai"
+			],
+			[
+				"bot",
+				"bottom\tproperty"
+			],
+			[
+				"background",
+				"background-color\tproperty"
+			],
+			[
+				"jsonload",
+				"jsonloadget"
+			],
+			[
+				"news",
+				"newssources"
+			],
+			[
+				"sou",
+				"sourcesarray"
+			],
+			[
+				"tuple",
+				"tuplefinalray"
+			],
+			[
+				"final",
+				"finalray"
+			],
+			[
+				"split",
+				"splitray"
+			],
+			[
+				"json",
+				"jsonarray"
+			],
+			[
+				"simu",
+				"simulate_observations"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"blend",
+				"background-blend-mode\tproperty"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"widt",
+				"border-width\tproperty"
+			],
+			[
+				"align",
+				"text-align\tproperty"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"pad",
+				"padding-right\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"b",
+				"cubic-bezier()"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"li",
+				"linear-gradient()"
+			],
+			[
+				"u",
+				"Url"
+			],
+			[
+				"cent",
+				"align-content\tproperty"
+			],
+			[
+				"pr",
+				"predict_by_url"
+			],
+			[
+				"file_",
+				"file_name"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"view",
+				"View: Toggle Menu"
+			],
+			[
+				"view:",
+				"View: Toggle Menu"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"PAC",
+				"Package Control: Add Channel"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"prv ",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 212.0,
+		"history":
+		[
+			"stop",
+			"view.run.command(\"htmlprettify\")"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Stanley/Desktop/HardHacks2019/real-time-object-detection/people_counter.py",
+		"/C/Users/Stanley/Desktop/HardHacks2019/real-time-object-detection/real_time_object_detection.py",
+		"/C/Users/Stanley/Desktop/Crazedwish-70948e48553e.json",
+		"/C/Users/Stanley/Desktop/HardHacks2019/main.py",
+		"/C/Users/Stanley/Desktop/HardHacks2019/test.py",
+		"/C/Users/Stanley/AppData/Roaming/Sublime Text 3/Packages/User/PY 3.6.sublime-build",
+		"/C/Users/Stanley/Desktop/HardHacks2019/heatmap.js",
+		"/C/Users/Stanley/AppData/Roaming/Sublime Text 3/Packages/User/JSC.sublime-build",
+		"/C/Users/Stanley/Desktop/HardHacks2019/real-time-object-detection/test.py",
+		"/C/Users/Stanley/Desktop/real-time-object-detection/MobileNetSSD_deploy.prototxt.txt",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/static/style.css",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/main.py",
+		"/C/Users/Stanley/Desktop/HardHacks2019/requirements.txt",
+		"/C/Users/Stanley/Desktop/real-time-object-detection/MobileNetSSD_deploy.caffemodel",
+		"/C/Users/Stanley/Desktop/Spin-Bike-Finder/main.py",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/templates/index.html",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/static/style2.css",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/templates/results.html",
+		"/C/Users/Stanley/Desktop/resume/_layouts/resume.html",
+		"/C/Users/Stanley/Desktop/resume/_config.yml",
+		"/C/Users/Stanley/Desktop/resume/_data/experience.yml",
+		"/C/Users/Stanley/Desktop/resume/css/main.scss",
+		"/C/Users/Stanley/Desktop/SDHacks2018/templates/test.html",
+		"/C/Users/Stanley/Desktop/SDHacks2018/LocalHost.py",
+		"/C/Users/Stanley/Desktop/SDHacks2018/static/css/style.css",
+		"/C/Users/Stanley/Desktop/SDHacks2018/templates/index.html",
+		"/C/Users/Stanley/Desktop/Rebias/main.py",
+		"/C/Users/Stanley/Desktop/Rebias/templates/index.html",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/static/css/style.css",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/startbootstrap-coming-soon-gh-pages/index.html",
+		"/C/Users/Stanley/Desktop/Scratch/text.cpp",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/startbootstrap-coming-soon-gh-pages/css/coming-soon.css",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/startbootstrap-coming-soon-gh-pages/css/coming-soon.min.css",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/startbootstrap-coming-soon-gh-pages/scss/_global.scss",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/startbootstrap-coming-soon-gh-pages/scss/_bootstrap-overrides.scss",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/startbootstrap-coming-soon-gh-pages/scss/coming-soon.scss",
+		"/C/Users/Stanley/Desktop/SDHacks2018/Main.py",
+		"/C/Users/Stanley/Desktop/SBHacks-2019/test.py",
+		"/C/Users/Stanley/Desktop/startbootstrap-coming-soon-gh-pages/index.html",
+		"/C/Users/Stanley/AppData/Local/Temp/fz3temp-2/advanced.yml",
+		"/C/Users/Stanley/AppData/Local/Temp/fz3temp-2/config.yml",
+		"/C/Users/Stanley/AppData/Local/Temp/fz3temp-2/child.yml",
+		"/C/Users/Stanley/Desktop/Scratch/dsfinal.py",
+		"/C/Users/Stanley/Desktop/Rebias/plottest/flask_app.py",
+		"/C/Users/Stanley/Desktop/Rebias/graph.py",
+		"/C/Users/Stanley/Desktop/Rebias/weight.py",
+		"/C/Users/Stanley/Desktop/Rebias/plottest/templates/graphs.html",
+		"/C/Users/Stanley/Desktop/Rebias/requirements.txt",
+		"/C/Users/Stanley/Desktop/SDHacks2018/static/js/index.js",
+		"/C/Users/Stanley/Desktop/SDHacks2018/static/js/scripts.js",
+		"/C/Users/Stanley/Desktop/Rebias/menuScraping.py",
+		"/C/Users/Stanley/Desktop/Rebias/weightranking.py",
+		"/C/Users/Stanley/Desktop/Rebias/plottest/graph.py",
+		"/C/Users/Stanley/Desktop/Rebias/weightranking",
+		"/C/Users/Stanley/Desktop/Rebias/plottest/graphingxkcd.py",
+		"/C/Users/Stanley/Desktop/Rebias/static/index.css",
+		"/C/Users/Stanley/Desktop/Rebias/static/header.html",
+		"/C/Users/Stanley/Desktop/Rebias/plottest/graphs.html",
+		"/C/Users/Stanley/Desktop/Rebias/similarity.py",
+		"/C/Users/Stanley/Desktop/Spin-Bike-Finder/distance.py",
+		"/C/Users/Stanley/Desktop/Scratch/HW5.py",
+		"/C/Users/Stanley/Desktop/Spin-Bike-Finder/__init__.py",
+		"/C/Users/Stanley/Desktop/Spin-Bike-Finder/tts.py",
+		"/C/Users/Stanley/AppData/Roaming/Sublime Text 3/Packages/Default/exec.py",
+		"/C/Users/Stanley/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/Stanley/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/Stanley/Desktop/main.py",
+		"/C/Users/Stanley/Desktop/Scratch/DataScienceMidtermScratch.py",
+		"/C/Users/Stanley/Desktop/Learning-Webdev/.gitattributes",
+		"/C/Users/Stanley/Desktop/test/bot.js",
+		"/C/Users/Stanley/Desktop/test/app.json",
+		"/C/Users/Stanley/Desktop/SDHacks2018/Test_Search.py",
+		"/C/Users/Stanley/Desktop/SDHacks2018/Test_Upload.py",
+		"/C/Users/Stanley/Desktop/SDHacks2018/.LocalHost.py.un~",
+		"/C/Users/Stanley/Desktop/SDHacks2018/static/css/bootstrap.css",
+		"/C/Users/Stanley/Desktop/Text  Moving/index.html",
+		"/C/Users/Stanley/Desktop/SDHacks2018/static/style.css",
+		"/C/Users/Stanley/Desktop/SDHacks2018/static/index.html",
+		"/C/Users/Stanley/Desktop/SDHacks2018/static/test.html",
+		"/C/Users/Stanley/Desktop/SDHacks2018/static/templates/style.css",
+		"/C/Users/Stanley/Desktop/SDHacks2018/templates/style.css",
+		"/C/Users/Stanley/Desktop/SDHacks2018/templates/scripts.js",
+		"/C/Users/Stanley/Desktop/SDHacks2018/TestSearch.py",
+		"/C/Users/Stanley/Desktop/SDHacks2018/templates/myscripts.js",
+		"/C/Users/Stanley/Desktop/SDHacks2018/website/css/style.css",
+		"/C/Users/Stanley/Desktop/SDHacks2018/website/index.html",
+		"/C/Users/Stanley/Desktop/Learning-Webdev/CSS/mywebsite/index.html",
+		"/C/Users/Stanley/Desktop/SDHacks2018/Searchrecognition.py",
+		"/C/Users/Stanley/Desktop/Scratch/Scratch.py",
+		"/C/Users/Stanley/Desktop/Scratch/PythonTest.py",
+		"/C/Users/Stanley/Desktop/Scratch/Math.py",
+		"/C/Users/Stanley/Desktop/Scratch/Discord.lnk",
+		"/C/Users/Stanley/AppData/Local/osu!/Skins/STEPMANIA - Copy/skin.ini",
+		"/C/Users/Stanley/Desktop/Scratch/JavaScratch.java",
+		"/C/Users/Stanley/AppData/Roaming/Sublime Text 3/Packages/User/Java.sublime-build",
+		"/C/Users/Stanley/Desktop/Scratch/learningpython.py"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
